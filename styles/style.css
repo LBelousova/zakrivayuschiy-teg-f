@@ -35,7 +35,7 @@
 .page {
   color: var(--main-color);
   font-family: var(--main-font), sans-serif;
-  font-weight: var(--wght-normal);
+  font-variation-settings: 'wght' var(--wght-normal);
   font-size: var(--font-size-main);
   line-height: var(--line-height);
   background-image: var(--bg-image);
@@ -301,13 +301,15 @@ dialog[open] .footer__dialog-title {
 }
 
 dialog[open] .footer__button_close {
-  grid-row: 2;
-  grid-column: 1 / span 2;
   background: none;
   border: var(--border);
   padding: 10px 0;
   line-height: 90%;
   font-size: var(--font-size-s);
+  align-self: center;
+  grid-row: 2;
+  grid-column: 1 / span 2;
+
 }
 
 dialog::backdrop {
