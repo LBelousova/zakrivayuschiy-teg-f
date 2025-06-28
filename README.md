@@ -1,1 +1,1 @@
-(https://lbelousova.github.io/zakrivayuschiy-teg-f/)
+https://lbelousova.github.io/zakrivayuschiy-teg-f/
